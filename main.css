@@ -1,0 +1,177 @@
+@font-face {
+  font-family: Lalezar;
+  src: url('fonts/Lalezar-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+  
+#main-container {
+  background-image: url("svgs/background.svg");  
+  height: 100%;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#logo-box {
+  width: 250;
+  height: 120px;
+  z-index: 4;
+}
+
+#logo-box img {
+  width: 100%;
+  height: 100%;
+}
+
+#deck-1 {
+  position: absolute;
+  top: -30px;
+  left: 60%;
+  height: 300px;
+  z-index: 0;
+}
+
+#deck-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+#deck-2 {
+  position: absolute;
+  bottom: -30px;
+  left: 65%;
+  height: 250px;
+  z-index: 0;
+}
+
+#deck-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+#deck-3 {
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  transform: translateY(-50%);
+  height: 350px;
+  z-index: 0;
+}
+
+#deck-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+#deck-4 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translateY(-50%);
+  height: 300px;
+  z-index: 0;
+}
+
+#deck-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+#deck-5 {
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  transform: translateY(-50%);
+  height: 300px;
+  z-index: 0;
+}
+
+#deck-5 img {
+ width: 100%;
+  height: 100%;
+}
+
+
+#top-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(98, 83, 69, 0.86);
+  height: 55px;
+  width: 100%;
+}
+
+#content-container {
+  background-color: #66483B;
+  border-radius: 40px;
+  margin-left: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#game-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+#game-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+#content-container p {
+  color: #EEDBBD;
+  font-size: 29px;
+  font-family: 'Lalezar', sans-serif;
+}
+
+#app-store {
+  margin-top: 30px;
+  width: 300px;
+}
+
+
+#app-store img {
+  width: 100%;
+}
+
+#google-play {
+  margin-top: 30px;
+  width: 300px;
+}
+
+
+#google-play img {
+  width: 100%;
+}
+
+
+#bottom-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(98, 83, 69, 0.86);
+  height: 25px;
+  width: 100%;
+}
