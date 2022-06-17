@@ -39,6 +39,10 @@ body, html {
   height: 100%;
 }
 
+.deck-container {
+  display: block;
+}
+
 #deck-1 {
   position: absolute;
   top: -30px;
@@ -174,4 +178,17 @@ body, html {
   background-color: rgba(98, 83, 69, 0.86);
   height: 25px;
   width: 100%;
+}
+
+
+/* Mobile Screen */
+@media screen and (max-width: 425px) {
+  .deck-container {
+    display: none;
+  }
+
+  #content-container {
+    margin: auto;
+    width: 250;
+  }
 }
